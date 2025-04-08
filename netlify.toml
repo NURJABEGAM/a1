@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+# Use the Next.js runtime plugin
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# These redirects are not needed when using the Next.js plugin
+# The plugin handles all the routing automatically
